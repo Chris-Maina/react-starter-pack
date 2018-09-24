@@ -1,0 +1,1 @@
+import RED from './app/client/src/index'
