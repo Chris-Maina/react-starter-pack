@@ -22,7 +22,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         include: path.resolve(__dirname, 'client', 'src'),
-        use: ['eslint-loader', 'babel-loader']
+        use: ['babel-loader', 'eslint-loader']
       },
       {
         test: /\.(sc|sa|c)ss$/,

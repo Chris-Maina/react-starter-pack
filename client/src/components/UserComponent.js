@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table, Tab } from 'semantic-ui-react';
+import { Table } from 'semantic-ui-react';
 import getUsers from '../../../server/api';
 
 class UserComponent extends Component {
@@ -37,8 +37,8 @@ class UserComponent extends Component {
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell>
-            <i className="fa fa-2x fa-user" aria-hidden="true"></i>&nbsp;
-               Name 
+              <i className='fa fa-2x fa-user' aria-hidden='true'></i>&nbsp;
+                Name 
             </Table.HeaderCell>
             <Table.HeaderCell> Age </Table.HeaderCell>
           </Table.Row>
